@@ -1,0 +1,4 @@
+#!/bin/bash
+bundle
+gem build libcamera.gemspec
+gem push libcamera
