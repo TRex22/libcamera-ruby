@@ -22,15 +22,15 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency "active_attr", "~> 0.16.0"
-  spec.add_dependency "console-style", "~> 0.0.1"
+  spec.add_dependency 'active_attr', '~> 0.16.0'
+  spec.add_dependency 'console-style', '~> 0.0.1'
 
   # Development dependancies
-  spec.add_development_dependency "rake", "~> 13.2.1"
-  spec.add_development_dependency "minitest", "~> 5.25.1"
-  spec.add_development_dependency "minitest-focus", "~> 1.4.0"
-  spec.add_development_dependency "minitest-reporters", "~> 1.7.1"
-  spec.add_development_dependency "timecop", "~> 0.9.10"
-  spec.add_development_dependency "mocha", "~> 2.4.5"
-  spec.add_development_dependency "pry", "~> 0.14.2"
+  spec.add_development_dependency 'minitest', '~> 5.25.1'
+  spec.add_development_dependency 'minitest-focus', '~> 1.4.0'
+  spec.add_development_dependency 'minitest-reporters', '~> 1.7.1'
+  spec.add_development_dependency 'mocha', '~> 2.4.5'
+  spec.add_development_dependency 'pry', '~> 0.14.2'
+  spec.add_development_dependency 'rake', '~> 13.2.1'
+  spec.add_development_dependency 'timecop', '~> 0.9.10'
 end

@@ -97,6 +97,11 @@ To run tests execute:
 
     $ rake test
 
+## Building
+The build the gem locally:
+
+    $ gem build libcamera.gemspec
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/trex22/libcamera. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
